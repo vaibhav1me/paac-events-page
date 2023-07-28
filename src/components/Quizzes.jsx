@@ -10,7 +10,7 @@ const Quizzes = () => {
         <div key={quiz.id} className="card flex flex-col items-center px-[10px] py-[16px] text-center text-[20px] bg-primary w-[400px] my-[16px] mx-[10px]">
           <div className="title text-[30px]">{quiz.title}</div>
           <img
-            src={`../../src/assets/quizzes/${quiz.image}`}
+            src={`../assets/quizzes/${quiz.image}`}
             className="h-[300px] m-auto"
             alt=""
           />

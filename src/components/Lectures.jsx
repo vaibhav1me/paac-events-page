@@ -10,7 +10,7 @@ const Lectures = () => {
         <div key={lecture.id} className="card flex flex-col items-center px-[10px] py-[16px] text-center text-[20px] bg-primary w-[400px] my-[16px] mx-[10px]">
           <div className="title text-[30px]">{lecture.title}</div>
           <img
-            src={`../../src/assets/lectures/${lecture.image}`}
+            src={`../assets/lectures/${lecture.image}`}
             className="h-[300px] m-auto"
             alt=""
           />

@@ -10,7 +10,7 @@ const Workshops = () => {
         <div key={workshop.id} className="card flex flex-col items-center px-[10px] py-[16px] text-center text-[20px] bg-primary w-[400px] my-[16px] mx-[10px]">
           <div className="title text-[30px]">{workshop.title}</div>
           <img
-            src={`../../src/assets/workshops/${workshop.image}`}
+            src={`../assets/workshops/${workshop.image}`}
             className="h-[300px] m-auto"
             alt=""
           />
