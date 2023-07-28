@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#website-container{
+  background-image: url('./assets/background.jpg');
+}
+
+.card{
+  border-radius: 15px;
+}
+
+#logo-image:hover{
+  cursor: pointer;
+}
+
+.card:hover{
+  cursor: pointer;
+  scale: 1.04;
+}
+
+.title{
+  color: #65b6ba;
+}
+
+.date, .venue{
+  color: #cc87dc;
+  margin-top: 5px;
+}
+
+.event-container {
+  margin-bottom: 150px;
+}
+
+#lectures{
+  margin-bottom: 0;
+  padding-bottom: 100px;
+}
+
+.event-sec-heading{
+  color: white;
+}
+
+.toggle-menu{
+  background-color: black;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 530px) {
+  .event-sec-heading{
+    font-size: 30px;
+  }
+
+  .logo{
+    width: 250px;
+  }
+}
